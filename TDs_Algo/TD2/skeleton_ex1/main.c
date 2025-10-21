@@ -49,9 +49,9 @@ int main(void) {
         time_jump = ((double) (end - start)) / CLOCKS_PER_SEC;
         
         if (index_found != -1) {
-            printf("Recherche par saut: cible trouvée à l'index %d en %f secondes.\n", index_found, time_jump);
+            printf("Recherche jump: cible trouvée à l'index %d en %f secondes.\n", index_found, time_jump);
         } else {
-            printf("Recherche par saut: cible non trouvée en %f secondes.\n", time_jump);
+            printf("Recherche jump: cible non trouvée en %f secondes.\n", time_jump);
         }
 
         //Binary Search
@@ -92,12 +92,12 @@ int main(void) {
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("Recherche Linéaire: trouvé à l'index %d en %f secondes.\n", index_found, cpu_time_used);
 
-    //Recherche par Saut
+    //Recherche jump
     start = clock();
     index_found = jump_search(sorted_array, n, target);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("Recherche par Saut: trouvé à l'index %d en %f secondes.\n", index_found, cpu_time_used);
+    printf("Recherche jump: trouvé à l'index %d en %f secondes.\n", index_found, cpu_time_used);
 
     //Recherche Binaire
     start = clock();
