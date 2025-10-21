@@ -111,4 +111,3 @@ Tri Rapide (Temps: 0.007529 secondes) - Tableau trié : Oui
 Les résultats montrent une différence de performance spectaculaire entre les deux familles d'algorithmes :
 -   Les tris en **O(n²)** (Sélection, Insertion, Bulles) prennent plusieurs secondes.
 -   Les tris en **O(n log n)** (Fusion, Rapide) s'exécutent en quelques millisecondes seulement, démontrant leur efficacité sur de grands volumes de données.
-```
