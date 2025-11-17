@@ -1,6 +1,6 @@
 # TD3 - Aladdin's Magic Kingdom
 
-Ce dépôt contient la solution en C pour le **TD3-2 : Aladdin's Magic Kingdom**. Le projet a été réalisé par l'équipe: Hadil ABAHMANE, Oumnia ASMAR, Aminta DIOUF & Arij FELLAH.
+Ce dépôt contient la solution en C pour le **TD3-2 : Aladdin's Magic Kingdom**. Le projet a été réalisé par l'équipe: **Hadil ABAHMANE**, **Oumnia ASMAR**, **Aminta DIOUF** & **Arij FELLAH**.
 
 Le problème est divisé en deux tâches principales basées sur la théorie des graphes :
 1.  **Compter les Royaumes** : Déterminer le nombre de composantes connexes dans le graphe (en utilisant un parcours en profondeur - DFS).
