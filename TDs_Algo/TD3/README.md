@@ -15,15 +15,14 @@ Le projet est organisé comme suit :
 ├── Graphs/
 │   ├── Aladdin-Magic-Kingdom/  (Dossier des tests pour le problème des Graphes)
 │   ├── mes_tests/              (Nos sorties pour le problème des Graphes)
-│   └── td3_graph.c             (Code source pour le 
-problème des Graphes)
+│   └── td3_graph.c             (Code source pour le problème des Graphes)
 │   └── README.md   
 │
 ├── Trees/
 │   ├── Infinite-Library/       (Dossier des tests pour le problème des Arbres)
 │   ├── mes_tests/              (Nos sorties pour le problème des Arbres)
 │   └── td3_tree.c              (Code source pour le problème des Arbres)
-│    └── README.md    
+│   └── README.md    
 │
 └── README.md                   (Ce fichier)
 ```
