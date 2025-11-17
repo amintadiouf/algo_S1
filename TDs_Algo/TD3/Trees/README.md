@@ -110,7 +110,8 @@ diff 'Infinite-Library/test07-output.txt' 'mes_tests/ma_sortie_test07.txt'
 ```
 
 ```bash
-diff 'Infinite-Library/test08-output.txt' 'mes_tests/ma_sortie_test08.txt'```
+diff 'Infinite-Library/test08-output.txt' 'mes_tests/ma_sortie_test08.txt'
+```
 
 ### Test 09
 ```bash
